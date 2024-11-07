@@ -1,0 +1,54 @@
+.container {
+  max-width: 1200px;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.back-button {
+  background-color: #00aaff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.starship-details {
+  max-width: 600px;
+  background-color: #2c2f3b;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  background: linear-gradient(135deg, #2c2f3b, #1b1c2c);
+}
+
+.starship-details h2 {
+  font-size: 1.5rem;
+  color: #d0d3ea;
+  margin-bottom: 20px;
+}
+
+.starship-details img {
+  width: 80%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.starship-details p {
+  font-size: 1rem;
+  color: #d0d3ea;
+  margin: 5px 0;
+}
+
+.starship-details p strong {
+  color: #a3a6b4;
+}
